@@ -1,0 +1,17 @@
+{
+  "name": "404-checker",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "node ./src/check.mjs"
+  },
+  "devDependencies": {
+    "jsdom": "^21.1.0",
+    "prettier": "^2.8.4"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "node-fetch": "^3.3.0"
+  }
+}
